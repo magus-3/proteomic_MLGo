@@ -4,8 +4,6 @@ Small project where I analyze a public proteomics dataset produced via tireless 
 AI WARNING: I openly declare that this project contains code generated with Artificial Intelligence/Super Intelligence.
 While the project structure, methods and workflow was determined and selected by me, some parts of the code have been generated with Artificial Intelligence to aid in translation of my ideas into actuality, but also to drastically reduce production time and improve on the results by assessing performance of multiple models easily and reproducibly as well as carrying out more complex analysis (Go-Terms).
 
-...........................................................
----
 
 ## Prediction of Tissue of Origin in Cancer Samples
 
@@ -68,7 +66,6 @@ This project uses machine learning to predict the tissue of origin of cancer cel
 <br>
 <br>
 
------------------------------------------------------------
 
 
 ### How to run the code yourself:
@@ -93,7 +90,6 @@ If you desire to rerun the google colab yourself, you must have the correct data
 <br>
 <br>
 
------------------------------------------------------------
 
 Sources:
 1. Gonçalves E, Poulos R, Cai Z et al., Pan-cancer proteomic map of 949 human cell lines, Cancer Cell, 2022; 40, 835-849.e8; DOI: doi.org/10.1016/j.ccell.2022.06.010
