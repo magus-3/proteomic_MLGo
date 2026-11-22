@@ -29,11 +29,18 @@ This project uses machine learning to predict the tissue of origin of cancer cel
 
 
 ### Key Results
+## Confusion Matrices:
 <img width="1736" height="790" alt="image" src="https://github.com/user-attachments/assets/92571997-6754-4c42-b274-06d5e9958054" />
 "Confusion Matrix for the top scorer model, in this case LogisticRegressor from SciKit-learn."
 
+<br>
+<br>
+
+## Go-Term Enrichment analysis:
 <img width="2490" height="1790" alt="image" src="https://github.com/user-attachments/assets/26fa326b-4828-4edb-8faa-1cddaa28b93c" />
 "Top 30 enriched Go-Terms, they showcase a distinct preference for distinct biological functions which could discern various tissue types."
+
+<br>
 
 **Machine Learning Performance**
 
