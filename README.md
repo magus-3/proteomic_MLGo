@@ -79,13 +79,13 @@ If you desire to rerun the google colab yourself, you must have the correct data
   The proteomics data that must be downloaded also NEEDS THE MAPPING FILE as the data is encoded in a way where certain necessary information (cancer cell line, tissue of origin etc.) is not directly present in the
   proteomics data file.
   
-2. The code in the colab notebook, by default, will try and read both files from your Google Drive directory: "/content/drive/MyDrive/data/" using their default file name:
-  - Either upload the downloaded data to this directory `("/content/drive/MyDrive/data/")` on your own Google Drive
-  - Modify the code cell titled "Data Paths" at the start of the colab notebook, to read the mapping and data files from a different directory on your Google Drive
-  - Download a local copy of the code, and manually edit the "Data Paths" code cell, to read the necessary files from your machine:
+2. The code in the colab notebook, by default, will try and read both files from your Google Drive directory: "/content/drive/MyDrive/data/" using their default file names:
+  - Either upload the downloaded data to this directory `("/content/drive/MyDrive/data/")` on your own Google Drive (if the folder "data" doesn't exist there, create it and place the proteomics and mapping file in there)
+  - Alternatively, if you want the data to be in a different directory, modify the code cell titled "Data Paths" at the start of the colab notebook, to read the mapping and data files from a different directory on your Google Drive
+  - Finally, fully local: Download a local copy of the code, and manually edit the "Data Paths" code cell, to read the necessary files from your machine:
       - In this case you will need to download and install all the necessary Python libraries manually and troubleshoot yourself
     
-3. Press Run and wait...
+3. Press Run and wait... a long time...
 
 <br>
 <br>
