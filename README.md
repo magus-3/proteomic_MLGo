@@ -75,15 +75,15 @@ This project uses machine learning to predict the tissue of origin of cancer cel
 
 If you desire to rerun the google colab yourself, you must have the correct data on your google drive and the colab must be able to see and read said data.
 
-1. From the figshare entry of the data featured in this article (1 Gonçalves E et al., 2022), visible at: (https:figshare.com/articles/dataset/Pan-cancer_proteomic_map_of_949_human_cell_lines/19345397?file=34411133)
-   - Download the mapping file: "ProCan-DepMapSanger_mapping_file_averaged.txt"
-   - Download the data: "ProCan-DepMapSanger_protein_matrix_6692_averaged.txt"
+1. From the figshare entry of the data featured in this article (1 Gonçalves E et al., 2022), visible at: `"figshare.com/articles/dataset/Pan-cancer_proteomic_map_of_949_human_cell_lines/19345397?file=34411133"`
+   - Download the mapping file: `"ProCan-DepMapSanger_mapping_file_averaged.txt"`
+   - Download the data: `"ProCan-DepMapSanger_protein_matrix_6692_averaged.txt"`
 
   The proteomics data that must be downloaded also NEEDS THE MAPPING FILE as the data is encoded in a way where certain necessary information (cancer cell line, tissue of origin etc.) is not directly present in the
   proteomics data file.
   
 2. The code in the colab notebook, by default, will try and read both files from your Google Drive directory: "/content/drive/MyDrive/data/" using their default file name:
-  - Either upload the downloaded data to this directory ("/content/drive/MyDrive/data/") on your own Google Drive
+  - Either upload the downloaded data to this directory `("/content/drive/MyDrive/data/")` on your own Google Drive
   - Modify the code cell titled "Data Paths" at the start of the colab notebook, to read the mapping and data files from a different directory on your Google Drive
   - Download a local copy of the code, and manually edit the "Data Paths" code cell, to read the necessary files from your machine:
       - In this case you will need to download and install all the necessary Python libraries manually and troubleshoot yourself
