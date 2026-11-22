@@ -75,7 +75,7 @@ This project uses machine learning to predict the tissue of origin of cancer cel
 
 If you desire to rerun the google colab yourself, you must have the correct data on your google drive and the colab must be able to see and read said data.
 
-1. From the figshare entry of the data featured in this article (1 Gonçalves E et al., 2022), visible at: figshare.com/articles/dataset/Pan-cancer_proteomic_map_of_949_human_cell_lines/19345397?file=34411133
+1. From the figshare entry of the data featured in this article (1 Gonçalves E et al., 2022), visible at: (https:figshare.com/articles/dataset/Pan-cancer_proteomic_map_of_949_human_cell_lines/19345397?file=34411133)
    - Download the mapping file: "ProCan-DepMapSanger_mapping_file_averaged.txt"
    - Download the data: "ProCan-DepMapSanger_protein_matrix_6692_averaged.txt"
 
