@@ -1,8 +1,8 @@
 # proteomic_MLGo
-Small project where I analyze a public proteomics dataset (doi.org/10.1016/j.ccell.2022.06.010) using Python, fitting a machine learning algorithm (classiefier) on it and extracting Go-Terms from the most important features (proteins) for GO-Terms Enrichment Analysis. Finally I identified certain biological functions of interest for determining the tissue of origin of certain cancer cell lines.
+Small project where I analyze a public proteomics dataset produced via tireless work and incredible dedication, please read the full article (doi.org/10.1016/j.ccell.2022.06.010). Data analysis was conducted in Python, adn so was the fitting of a machine learning algorithm (classiefier), extraction of the Go-Terms from the most important features (proteins) and GO-Terms Enrichment Analysis. Finally I identified certain biological functions of interest for determining the tissue of origin of certain cancer cell lines, based on their protein landscape and so their direct phenotype.
 
 AI WARNING: I openly declare that this project contains code generated with Artificial Intelligence/Super Intelligence.
-While the project structure, methods and workflow was determined and selected by me, some parts of the code have been generated with Artificial Intelligence to aid in translation of my ideas into actuality, but also to drastically reduce production time and improve on the results by assessing performance of multiple models easily and reproducibly.
+While the project structure, methods and workflow was determined and selected by me, some parts of the code have been generated with Artificial Intelligence to aid in translation of my ideas into actuality, but also to drastically reduce production time and improve on the results by assessing performance of multiple models easily and reproducibly as well as carrying out more complex analysis (Go-Terms).
 
 ...........................................................
 ---
@@ -73,7 +73,7 @@ This project uses machine learning to predict the tissue of origin of cancer cel
 
 ### How to run the code yourself:
 
-If you desire to rerun the google colab yourself, you must have the correct data on your google drive and the colab must be able to see and read said data.
+If you desire to rerun the google colab yourself, you must have the correct data on your google drive and the colab must be able to see and read said data. You can download the colab notebook in this project repository (MLGo_notebook)
 
 1. From the figshare entry of the data featured in this article (1 Gonçalves E et al., 2022), visible at: `"figshare.com/articles/dataset/Pan-cancer_proteomic_map_of_949_human_cell_lines/19345397?file=34411133"`
    - Download the mapping file: `"ProCan-DepMapSanger_mapping_file_averaged.txt"`
