@@ -65,10 +65,14 @@ This project uses machine learning to predict the tissue of origin of cancer cel
 
 * **Biological Takeaway:** Rather than relying on generic metabolic phenotypes, the classifier successfully isolated genuine, tissue-specific proteomic differences within the cancer cell lines.
 
+<br>
+<br>
 
 -----------------------------------------------------------
 
-How to run the code yourself:
+
+### How to run the code yourself:
+
 If you desire to rerun the google colab yourself, you must have the correct data on your google drive and the colab must be able to see and read said data.
 
 1. From the figshare entry of the data featured in this article (1 Gonçalves E et al., 2022), visible at: figshare.com/articles/dataset/Pan-cancer_proteomic_map_of_949_human_cell_lines/19345397?file=34411133
@@ -85,6 +89,9 @@ If you desire to rerun the google colab yourself, you must have the correct data
       - In this case you will need to download and install all the necessary Python libraries manually and troubleshoot yourself
     
 3. Press Run and wait...
+
+<br>
+<br>
 
 -----------------------------------------------------------
 
